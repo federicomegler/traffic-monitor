@@ -30,13 +30,13 @@
     <decompositions xmi:type="edu.toronto.cs.openome_model:OrDecomposition" xmi:id="_Ty6dUNX8EeisYO4sVGJr0Q" source="_STOMMNX8EeisYO4sVGJr0Q" target="_V3yJENojEeib1JK6icp0cA"/>
     <decompositions xmi:type="edu.toronto.cs.openome_model:OrDecomposition" xmi:id="_J-QTENYBEeisYO4sVGJr0Q" source="_EtEGQNYBEeisYO4sVGJr0Q" target="_xMQIINX3EeisYO4sVGJr0Q"/>
     <decompositions xmi:type="edu.toronto.cs.openome_model:OrDecomposition" xmi:id="_DEu7kNnoEeiibOrDNO2NEw" source="_h40wUNnnEeiibOrDNO2NEw" target="_09VNwdnAEeiibOrDNO2NEw"/>
-    <decompositions xmi:type="edu.toronto.cs.openome_model:AndDecomposition" xmi:id="_s8SxENokEeib1JK6icp0cA" source="_n4RdkNokEeib1JK6icp0cA" target="_UvcA8NojEeib1JK6icp0cA"/>
-    <decompositions xmi:type="edu.toronto.cs.openome_model:AndDecomposition" xmi:id="_vrDdYNokEeib1JK6icp0cA" source="_-AfjwNYEEeisYO4sVGJr0Q" target="_iS4iYNokEeib1JK6icp0cA"/>
     <decompositions xmi:type="edu.toronto.cs.openome_model:AndDecomposition" xmi:id="_KAWmEdo5EeiUiq20xOnElQ" source="_xMQIINX3EeisYO4sVGJr0Q" target="_GWF5kNYBEeisYO4sVGJr0Q"/>
     <decompositions xmi:type="edu.toronto.cs.openome_model:OrDecomposition" xmi:id="_lvpXoNo5EeiUiq20xOnElQ" source="_fRHN8No5EeiUiq20xOnElQ" target="_gxRZINo5EeiUiq20xOnElQ"/>
     <decompositions xmi:type="edu.toronto.cs.openome_model:OrDecomposition" xmi:id="_tup1kNo5EeiUiq20xOnElQ" source="_gxRZINo5EeiUiq20xOnElQ" target="_VQw3QNohEeib1JK6icp0cA"/>
     <decompositions xmi:type="edu.toronto.cs.openome_model:OrDecomposition" xmi:id="_uipeUNo5EeiUiq20xOnElQ" source="_gxRZINo5EeiUiq20xOnElQ" target="_pqJvANX_EeisYO4sVGJr0Q"/>
     <decompositions xmi:type="edu.toronto.cs.openome_model:OrDecomposition" xmi:id="_0AgOINo5EeiUiq20xOnElQ" source="_gxRZINo5EeiUiq20xOnElQ" target="_Y64PMNo6EeiUiq20xOnElQ"/>
+    <decompositions xmi:type="edu.toronto.cs.openome_model:OrDecomposition" xmi:id="_rKVXUNo8EeiUiq20xOnElQ" source="_-AfjwNYEEeisYO4sVGJr0Q" target="_iS4iYNokEeib1JK6icp0cA"/>
+    <decompositions xmi:type="edu.toronto.cs.openome_model:OrDecomposition" xmi:id="_wVjfANo8EeiUiq20xOnElQ" source="_n4RdkNokEeib1JK6icp0cA" target="_UvcA8NojEeib1JK6icp0cA"/>
     <containers xmi:type="edu.toronto.cs.openome_model:Actor" xmi:id="_9jS6INXzEeisYO4sVGJr0Q" name="sistema centrale">
       <intentions xmi:type="edu.toronto.cs.openome_model:Goal" xmi:id="_pqJvANX_EeisYO4sVGJr0Q" dependencyTo="_UjGgoNnMEeiibOrDNO2NEw" name="inviare notifiche" parentDecompositions="_uipeUNo5EeiUiq20xOnElQ"/>
       <intentions xmi:type="edu.toronto.cs.openome_model:Goal" xmi:id="_VQw3QNohEeib1JK6icp0cA" dependencyTo="_OFig8NnEEeiibOrDNO2NEw _P7vGMNnHEeiibOrDNO2NEw" name="inviare dati traffico" parentDecompositions="_tup1kNo5EeiUiq20xOnElQ"/>
@@ -55,11 +55,11 @@
     </containers>
     <containers xmi:type="edu.toronto.cs.openome_model:Actor" xmi:id="_d5mTENX0EeisYO4sVGJr0Q" name="app mobile">
       <intentions xmi:type="edu.toronto.cs.openome_model:Task" xmi:id="_STOMMNX8EeisYO4sVGJr0Q" name="rileva posizione" decompositions="_Ty6dUNX8EeisYO4sVGJr0Q"/>
-      <intentions xmi:type="edu.toronto.cs.openome_model:Task" xmi:id="_-AfjwNYEEeisYO4sVGJr0Q" dependencyFrom="_WpdzYNnQEeiibOrDNO2NEw" name="ricevere feedback" decompositions="_vrDdYNokEeib1JK6icp0cA"/>
-      <intentions xmi:type="edu.toronto.cs.openome_model:Goal" xmi:id="_UvcA8NojEeib1JK6icp0cA" dependencyTo="_eItMINnQEeiibOrDNO2NEw" name="mostrare notifica" decompositions="_PtuwoNX8EeisYO4sVGJr0Q" parentDecompositions="_s8SxENokEeib1JK6icp0cA"/>
+      <intentions xmi:type="edu.toronto.cs.openome_model:Task" xmi:id="_-AfjwNYEEeisYO4sVGJr0Q" dependencyFrom="_WpdzYNnQEeiibOrDNO2NEw" name="ricevere feedback" decompositions="_rKVXUNo8EeiUiq20xOnElQ"/>
+      <intentions xmi:type="edu.toronto.cs.openome_model:Goal" xmi:id="_UvcA8NojEeib1JK6icp0cA" dependencyTo="_eItMINnQEeiibOrDNO2NEw" name="mostrare notifica" decompositions="_PtuwoNX8EeisYO4sVGJr0Q" parentDecompositions="_wVjfANo8EeiUiq20xOnElQ"/>
       <intentions xmi:type="edu.toronto.cs.openome_model:Softgoal" xmi:id="_V3yJENojEeib1JK6icp0cA" name="gestione informazioni" parentDecompositions="_POQmYNX8EeisYO4sVGJr0Q _PtuwoNX8EeisYO4sVGJr0Q _Ty6dUNX8EeisYO4sVGJr0Q"/>
-      <intentions xmi:type="edu.toronto.cs.openome_model:Goal" xmi:id="_iS4iYNokEeib1JK6icp0cA" dependencyTo="_yYsiQNnKEeiibOrDNO2NEw" name="invio segnalazioni al sistema" decompositions="_POQmYNX8EeisYO4sVGJr0Q" parentDecompositions="_vrDdYNokEeib1JK6icp0cA"/>
-      <intentions xmi:type="edu.toronto.cs.openome_model:Task" xmi:id="_n4RdkNokEeib1JK6icp0cA" dependencyFrom="_rohcENokEeib1JK6icp0cA" name="ricevere notifica" decompositions="_s8SxENokEeib1JK6icp0cA"/>
+      <intentions xmi:type="edu.toronto.cs.openome_model:Goal" xmi:id="_iS4iYNokEeib1JK6icp0cA" dependencyTo="_yYsiQNnKEeiibOrDNO2NEw" name="invio segnalazioni al sistema" decompositions="_POQmYNX8EeisYO4sVGJr0Q" parentDecompositions="_rKVXUNo8EeiUiq20xOnElQ"/>
+      <intentions xmi:type="edu.toronto.cs.openome_model:Task" xmi:id="_n4RdkNokEeib1JK6icp0cA" dependencyFrom="_rohcENokEeib1JK6icp0cA" name="ricevere notifica" decompositions="_wVjfANo8EeiUiq20xOnElQ"/>
     </containers>
     <containers xmi:type="edu.toronto.cs.openome_model:Actor" xmi:id="_i0o1MdkfEeim8J4eTgBCpw" name="admin">
       <intentions xmi:type="edu.toronto.cs.openome_model:Goal" xmi:id="_09VNwdnAEeiibOrDNO2NEw" name="manutenzione" parentDecompositions="_DEu7kNnoEeiibOrDNO2NEw"/>
@@ -378,14 +378,6 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_roiDIdokEeib1JK6icp0cA" fontName="Segoe UI"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_roiDItokEeib1JK6icp0cA" points="[-36, -25, 97, 71]$[-113, -77, 20, 19]"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_s8T_MNokEeib1JK6icp0cA" type="4002" element="_s8SxENokEeib1JK6icp0cA" source="_n4SrsNokEeib1JK6icp0cA" target="_Uvd2INojEeib1JK6icp0cA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_s8UmQNokEeib1JK6icp0cA" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s8UmQdokEeib1JK6icp0cA" points="[9, 24, -6, -80]$[37, 89, 22, -15]"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_vrErgNokEeib1JK6icp0cA" type="4002" element="_vrDdYNokEeib1JK6icp0cA" source="_-Agx4NYEEeisYO4sVGJr0Q" target="_iS5wgNokEeib1JK6icp0cA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_vrErgdokEeib1JK6icp0cA" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vrErgtokEeib1JK6icp0cA" points="[9, -20, -46, 102]$[50, -104, -5, 18]"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_r07q8NolEeib1JK6icp0cA" type="4001" element="_r06c0NolEeib1JK6icp0cA" source="_y3yb4NYCEeisYO4sVGJr0Q" target="_IMhGINX1EeisYO4sVGJr0Q">
       <styles xmi:type="notation:FontStyle" xmi:id="_r07q8dolEeib1JK6icp0cA" fontName="Segoe UI"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r07q8tolEeib1JK6icp0cA" points="[-21, 22, 222, -230]$[-226, 235, 17, -17]"/>
@@ -409,6 +401,14 @@
     <edges xmi:type="notation:Connector" xmi:id="_0AhcQNo5EeiUiq20xOnElQ" type="4003" element="_0AgOINo5EeiUiq20xOnElQ" source="_gxVqkNo5EeiUiq20xOnElQ" target="_Y64PMdo6EeiUiq20xOnElQ">
       <styles xmi:type="notation:FontStyle" xmi:id="_0AhcQdo5EeiUiq20xOnElQ" fontName="Segoe UI"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0AhcQto5EeiUiq20xOnElQ" points="[7, -32, 7, 51]$[15, -45, 15, 38]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_rKXMgNo8EeiUiq20xOnElQ" type="4003" element="_rKVXUNo8EeiUiq20xOnElQ" source="_-Agx4NYEEeisYO4sVGJr0Q" target="_iS5wgNokEeib1JK6icp0cA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_rKXMgdo8EeiUiq20xOnElQ" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rKXMgto8EeiUiq20xOnElQ" points="[10, -17, -35, 78]$[80, -82, 35, 13]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_wVktINo8EeiUiq20xOnElQ" type="4003" element="_wVjfANo8EeiUiq20xOnElQ" source="_n4SrsNokEeib1JK6icp0cA" target="_Uvd2INojEeib1JK6icp0cA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_wVktIdo8EeiUiq20xOnElQ" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wVktIto8EeiUiq20xOnElQ" points="[9, 18, -45, -66]$[29, 75, -25, -9]"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
