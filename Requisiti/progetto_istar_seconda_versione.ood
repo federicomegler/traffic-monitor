@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:edu.toronto.cs.openome_model="http:///edu/toronto/cs/openome_model.ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.toronto.cs.openome_model="http:///edu/toronto/cs/openome_model.ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
   <edu.toronto.cs.openome_model:Model xmi:id="_gCqGwdXzEeisYO4sVGJr0Q">
     <intentions xmi:type="edu.toronto.cs.openome_model:Resource" xmi:id="_mHIVMNX0EeisYO4sVGJr0Q" dependencyFrom="_UjGgoNnMEeiibOrDNO2NEw" dependencyTo="_rohcENokEeib1JK6icp0cA" name="notifiche"/>
     <intentions xmi:type="edu.toronto.cs.openome_model:Resource" xmi:id="_rBU-UNX0EeisYO4sVGJr0Q" dependencyFrom="_yYsiQNnKEeiibOrDNO2NEw" dependencyTo="_gmwCoNoiEeib1JK6icp0cA" name="segnalazione"/>
@@ -288,7 +288,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_Bd0ygdnEEeiibOrDNO2NEw" type="5044">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_Bd0ygtnEEeiibOrDNO2NEw" y="5"/>
       </children>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bd0LcdnEEeiibOrDNO2NEw" x="1500" y="690"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bd0LcdnEEeiibOrDNO2NEw" x="1464" y="660"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_p1AwgNn3Eeib1JK6icp0cA" type="2008" element="_p0_iYNn3Eeib1JK6icp0cA" fontName="Segoe UI" fontHeight="14">
       <children xmi:type="notation:DecorationNode" xmi:id="_p1BXkNn3Eeib1JK6icp0cA" type="5024"/>
@@ -296,6 +296,18 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_p1BXktn3Eeib1JK6icp0cA" y="5"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p1Awgdn3Eeib1JK6icp0cA" x="1680" y="1075" width="226" height="121"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_FYrTgNo9EeiUiq20xOnElQ" type="Note" fontName="Segoe UI" fontHeight="16" description="IO PERÒ PENSO CHE L'ADMIN NON DEBBA LEGGERE I DATI IN DIRETTA,                                     MA CHE RICEVA DATI CHE SONO STATI SALVATI :)   ALL'UTENTE INVECE NON PENSO SERVA LO STORICO" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_FYuW0No9EeiUiq20xOnElQ" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_FYuW0do9EeiUiq20xOnElQ" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_FYrTgdo9EeiUiq20xOnElQ"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_FYrTgto9EeiUiq20xOnElQ"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FYrTg9o9EeiUiq20xOnElQ" x="2160" y="155" width="916" height="120"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_gCqGw9XzEeisYO4sVGJr0Q"/>
     <edges xmi:type="notation:Connector" xmi:id="_POQmYdX8EeisYO4sVGJr0Q" type="4003" element="_POQmYNX8EeisYO4sVGJr0Q" source="_iS5wgNokEeib1JK6icp0cA" target="_V3zXMNojEeib1JK6icp0cA">
