@@ -1905,7 +1905,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 224,
+											"left": 400,
 											"top": -16,
 											"height": 13
 										},
@@ -1916,11 +1916,11 @@
 												"$ref": "AAAAAAFnA6/6vTsycMg="
 											},
 											"font": "Arial;13;1",
-											"left": 597,
+											"left": 685,
 											"top": 207,
 											"width": 81.63720703125,
 											"height": 26,
-											"text": "segnalazione traffico",
+											"text": "invio dati raccolti",
 											"wordWrap": true
 										},
 										{
@@ -1931,7 +1931,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 224,
+											"left": 400,
 											"top": -16,
 											"width": 38.27001953125,
 											"height": 13,
@@ -1945,14 +1945,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 224,
+											"left": 400,
 											"top": -16,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 592,
+									"left": 680,
 									"top": 200,
 									"width": 91.63720703125,
 									"height": 38,
@@ -1980,7 +1980,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 112,
+									"left": 200,
 									"top": -8,
 									"width": 10,
 									"height": 10
@@ -1996,7 +1996,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 112,
+									"left": 200,
 									"top": -8,
 									"width": 10,
 									"height": 10
@@ -2011,14 +2011,14 @@
 										"$ref": "AAAAAAFnA6/6vTtbSiY="
 									},
 									"font": "Arial;13;0",
-									"left": 592,
+									"left": 680,
 									"top": 238,
 									"width": 91.63720703125
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 592,
+							"left": 680,
 							"top": 200,
 							"width": 91.63720703125,
 							"height": 40,
@@ -2057,16 +2057,16 @@
 									},
 									"font": "Arial;13;0",
 									"left": 399,
-									"top": 197,
-									"width": 172.6943359375,
+									"top": 196,
+									"width": 262.57080078125,
 									"height": 13,
-									"alpha": -4.171969970310328,
-									"distance": 17.4928556845359,
+									"alpha": -4.248741871384008,
+									"distance": 17.88854381999832,
 									"hostEdge": {
 										"$ref": "AAAAAAFnA6/6vTs6KMI="
 									},
 									"edgePosition": 1,
-									"text": "timer_scaduto / mando avviso"
+									"text": "timer_scaduto || soglia raggiunta / mando dati"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -2079,7 +2079,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 494,
+									"left": 538,
 									"top": 183,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2100,7 +2100,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 494,
+									"left": 538,
 									"top": 228,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -2119,7 +2119,7 @@
 								"$ref": "AAAAAAFnA6/6vTsoUh4="
 							},
 							"lineStyle": 1,
-							"points": "397:219;591:219",
+							"points": "397:219;679:219",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFnA6/6vTs721I="
@@ -2419,7 +2419,7 @@
 										"$ref": "AAAAAAFnA6/6vTthj4U="
 									},
 									"font": "Arial;13;0",
-									"left": 450,
+									"left": 494,
 									"top": 313,
 									"width": 98.26171875,
 									"height": 13,
@@ -2442,7 +2442,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 499,
+									"left": 543,
 									"top": 328,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2463,7 +2463,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 500,
+									"left": 544,
 									"top": 283,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -2482,7 +2482,7 @@
 								"$ref": "AAAAAAFnA6/6vTsxVkY="
 							},
 							"lineStyle": 1,
-							"points": "638:240;640:304;360:304;358:240",
+							"points": "726:240;728:304;360:304;358:240",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFnA6/6vTtNbVM="
@@ -2717,7 +2717,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFnA6/6vTtYvzo="
 							},
-							"name": "segnalazione traffico"
+							"name": "invio dati raccolti"
 						},
 						{
 							"_type": "UMLFinalState",
@@ -2756,7 +2756,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFnA6/6vTtYvzo="
 							},
-							"name": "timer_scaduto / mando avviso",
+							"name": "timer_scaduto || soglia raggiunta / mando dati",
 							"source": {
 								"$ref": "AAAAAAFnA6/6vTtawH4="
 							},
