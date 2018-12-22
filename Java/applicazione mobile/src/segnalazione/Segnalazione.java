@@ -8,10 +8,9 @@ import java.util.Random;
 import java.util.Set;
 
 import shared.IntACC;
-import shared.IntInfoTraffico;
 import shared.IntSegnalazioni;
 
-public class Segnalazione extends UnicastRemoteObject implements IntInfoTraffico {
+public class Segnalazione extends UnicastRemoteObject {
 	private String posizione;
 	public Segnalazione() throws RemoteException {
 		super();
@@ -60,7 +59,7 @@ public class Segnalazione extends UnicastRemoteObject implements IntInfoTraffico
 		Random estrattore = new Random();
 		int x = estrattore.nextInt(4000);
 		int y = estrattore.nextInt(4000);
-		posizione = new String(Integer.toString(y)+"£"+Integer.toString(x));
+		posizione = new String(Integer.toString(y)+""+Integer.toString(x));
 		return posizione;
 	}
 
