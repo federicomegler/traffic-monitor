@@ -7,7 +7,6 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 import Grafica.App;
-import shared.IntInfoTraffico;
 import shared.IntSegnalazioni;
 
 public class MainApp {
